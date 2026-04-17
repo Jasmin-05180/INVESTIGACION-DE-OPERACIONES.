@@ -1,6 +1,36 @@
 el numero 300 es aleatorio, dividio todo entre 10, luedo numero aleatorio
 Para la direccion del grafico es siemmre necesario guiarse de un punto referente no de menor va a abajo
 
+## ¿Cómo determinar qué región graficar en una desigualdad?
+
+**Pasos:**
+
+1. **Dibuja la recta de igualdad**  
+   Por ejemplo, si tienes `x₂ ≥ x₁`, dibuja primero `x₂ = x₁`.
+
+2. **Elige un punto de referencia**  
+   Selecciona un punto **que NO esté sobre la recta** (el origen `(0,0)` suele ser el más fácil, si no está sobre la recta).
+
+3. **Sustituye el punto en la desigualdad**  
+   Sustituye las coordenadas del punto elegido en la inequación.
+
+4. **Decide qué región sombrear**  
+   - Si la desigualdad **se cumple** para ese punto, **sombrea el lado donde está ese punto**.
+   - Si **no se cumple**, sombrea el **lado opuesto**.
+
+---
+
+**Ejemplo:**  
+Para `x₂ ≥ x₁`:
+- Dibuja la recta `x₂ = x₁`.
+- Elige el punto `(0, 1)`.
+- Sustituyes en la inequación: `1 ≥ 0` ✔️  
+  Entonces, **sombrea la región donde está ese punto**.
+
+---
+
+> **Este método sirve para cualquier desigualdad en problemas de programación lineal.**
+
 <img width="1086" height="628" alt="image" src="https://github.com/user-attachments/assets/60059d37-0af5-49fd-b935-1525376462ed" />
 
 Se usan las restricciones que pasan por el punto optimo
